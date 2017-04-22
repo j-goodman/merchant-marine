@@ -17,7 +17,6 @@ container {
 
 viewscreen {
   align-items: center;
-  border: 1px solid #0ac;
   display: flex;
   height: 600px;
   justify-content: center;
