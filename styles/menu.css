@@ -44,7 +44,11 @@ selectors {
 }
 
 prompt {
+  border-bottom: 1px solid #bbd;
   letter-spacing: 16px;
+  margin-bottom: 4px;
+  margin-top: 24px;
+  padding-bottom: 4px;
 }
 
 selector {
