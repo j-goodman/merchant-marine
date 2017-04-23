@@ -2,10 +2,23 @@
   <script type='text/javascript' src='lib/planet.js'></script>
   <script type='text/javascript' src='lib/mapmaker.js'></script>
   <script type='text/javascript' src='lib/ship.js'></script>
-  <link rel='stylesheet' href='styles.css'>
+  <link rel='stylesheet' href='styles/main.css'>
+  <link rel='stylesheet' href='styles/map.css'>
+  <link rel='stylesheet' href='styles/menu.css'>
 </head>
 <body>
   <viewscreen id='map-panel'>
     <canvas id='map-base' width=500 height=500></canvas>
   </viewscreen>
+  <overlay>
+    <submenu id='main-menu'>
+      <name>Current Planet</name>
+      <bodytext>Your ship is in orbit around the ocean planet of Yastanere.</bodytext>
+      <options>
+        <prompt>Demo selector menu.</prompt>
+        <selector>First option.</selector>
+        <selector>Second option.</selector>
+      </options>
+    </submenu>
+  </overlay>
 </body>
