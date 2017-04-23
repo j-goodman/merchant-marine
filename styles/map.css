@@ -1,0 +1,11 @@
+/* MAP PANEL */
+#map-panel {
+  perspective: 600px;
+}
+
+#map-panel > #map-base {
+  border: 1px solid #0ac;
+  transform: rotateX(90deg) rotateZ(0deg) translateZ(-146px);
+  height: 500px;
+  width: 500px;
+}
