@@ -1,12 +1,13 @@
 overlay {
   background: rgba(0, 0, 0, .5);
   border: 1px solid #bbd;
+  height: 300px;
+  overflow-y: scroll;
+  padding: 12px;
   position: absolute;
-  height: auto;
   right: 20px;
   top: 20px;
   width: 480px;
-  padding: 12px;
 }
 
 overlay > submenu {
@@ -37,14 +38,23 @@ overlay > submenu > options {
   width: auto;
 }
 
-overlay > submenu > options > prompt, selector {
+selectors {
+  display: flex;
+  flex-direction: column;
+}
+
+prompt {
+  letter-spacing: 16px;
+}
+
+selector {
   font-size: 18px;
   margin: 10px 0px 6px 0px;
   text-align: center;
   width: auto;
 }
 
-overlay > submenu > options > selector:hover {
+selector:hover {
   color: #d44;
   cursor: pointer;
 }
