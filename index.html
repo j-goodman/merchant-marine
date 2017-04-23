@@ -1,9 +1,15 @@
 <head>
+  <meta charset=UTF-8>
+
+  <script type='text/javascript' src='lib/worldNames.js'></script>
   <script type='text/javascript' src='lib/planet.js'></script>
   <script type='text/javascript' src='lib/visibles.js'></script>
   <script type='text/javascript' src='lib/mapmaker.js'></script>
+  <script type='text/javascript' src='lib/display.js'></script>
   <script type='text/javascript' src='lib/ship.js'></script>
+
   <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
+
   <link rel='stylesheet' href='styles/main.css'>
   <link rel='stylesheet' href='styles/map.css'>
   <link rel='stylesheet' href='styles/menu.css'>
@@ -15,7 +21,7 @@
   <overlay>
     <submenu id='main-menu'>
       <name>Current Planet</name>
-      <bodytext>Your ship is in orbit around the ocean planet of Yastanere.</bodytext>
+      <bodytext id='current-location'></bodytext>
       <options>
         <prompt>Demo selector menu.</prompt>
         <selector>First option.</selector>
