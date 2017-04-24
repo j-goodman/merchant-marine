@@ -51,7 +51,7 @@ prompt {
   padding-bottom: 4px;
 }
 
-selector {
+selector, nonselector {
   font-size: 18px;
   margin: 10px 0px 6px 0px;
   text-align: center;
